@@ -79,6 +79,13 @@ is not good to obtain the individual points.
 ------------------------------------------------------------------------
 
 b.) construct a box-plot for each gender and discuss the findings.
+
+``` r
+boxplot(female, male, names = c("Female", "Male"), 
+        main = "Comparison of Female and Male examination for Java programming",xlab="Gender",ylab="Scores",
+        col = c("lightcoral", "lightblue"))
+```
+
 ![](Afundar_FA1_Prob_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
 
 The boxplot constructed from each gender shows that the female has a
