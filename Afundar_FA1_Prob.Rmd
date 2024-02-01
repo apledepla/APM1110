@@ -80,7 +80,7 @@ ________________________________________________________________________________
 
 
 b.) construct a box-plot for each gender and discuss the findings. 
-```{r, echo=FALSE}
+```{r, echo=TRUE}
 boxplot(female, male, names = c("Female", "Male"), 
         main = "Comparison of Female and Male examination for Java programming",xlab="Gender",ylab="Scores",
         col = c("lightcoral", "lightblue"))
