@@ -86,7 +86,7 @@ boxplot(female, male, names = c("Female", "Male"),
         col = c("lightcoral", "lightblue"))
 ```
 
-![image](https://gist.github.com/assets/124319874/f708d792-bf0e-4ead-984e-9c4eaf9a2470)
+![](Afundar_FA1_Prob_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
 
 The boxplot constructed from each gender shows that the female has a
 higher score, mean, and median for the examination compared to the male.
